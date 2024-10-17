@@ -3,7 +3,7 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 :root{
     --cor-padrao:#9F764B;
@@ -69,6 +69,10 @@ nav ul li a:hover{
 .corpo-produtos h2{
     text-align: center;
 }
+.corpo-produtos .linha{
+    padding-left: 10%;
+    padding-right:10%;
+}
 .col-1{
     display: inline-block;
     background-color: var(--cor-padrao2);
@@ -88,4 +92,234 @@ nav ul li a:hover{
     width: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+.col-2{
+    display: inline-block;
+    background-color: var(--cor-padrao2);
+    color: var(--cor-fonte-principal);
+    flex-basis: 25%;
+    max-width: 200px;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-2:hover{
+    transform: scale(1.1);
+}
+
+.col-2 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.col-3{
+    display: inline-block;
+    background-color: var(--cor-padrao2);
+    color: var(--cor-fonte-principal);
+    flex-basis: 25%;
+    max-width: 200px;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-3:hover{
+    transform: scale(1.1);
+}
+
+.col-3 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.col-4{
+    display: inline-block;
+    background-color: var(--cor-padrao2);
+    color: var(--cor-fonte-principal);
+    flex-basis: 25%;
+    max-width: 200px;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-4:hover{
+    transform: scale(1.1);
+}
+
+.col-4 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.col-5{
+    display: inline-block;
+    background-color: var(--cor-padrao2);
+    color: var(--cor-fonte-principal);
+    flex-basis: 25%;
+    max-width: 200px;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-5:hover{
+    transform: scale(1.1);
+}
+
+.col-5 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.col-6{
+    display: inline-block;
+    background-color: var(--cor-padrao2);
+    color: var(--cor-fonte-principal);
+    flex-basis: 25%;
+    max-width: 200px;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-6:hover{
+    transform: scale(1.1);
+}
+
+.col-6 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.col-7{
+    display: inline-block;
+    background-color: var(--cor-padrao2);
+    color: var(--cor-fonte-principal);
+    flex-basis: 25%;
+    max-width: 200px;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-7:hover{
+    transform: scale(1.1);
+}
+
+.col-7 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.col-8{
+    display: inline-block;
+    background-color: var(--cor-padrao2);
+    color: var(--cor-fonte-principal);
+    flex-basis: 25%;
+    max-width: 200px;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-8:hover{
+    transform: scale(1.1);
+}
+
+.col-8 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.col-9{
+    display: inline-block;
+    background-color: var(--cor-padrao2);
+    color: var(--cor-fonte-principal);
+    flex-basis: 25%;
+    max-width: 200px;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-9:hover{
+    transform: scale(1.1);
+}
+
+.col-9 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.col-10{
+    display: inline-block;
+    background-color: var(--cor-padrao2);
+    color: var(--cor-fonte-principal);
+    flex-basis: 25%;
+    max-width: 200px;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-10:hover{
+    transform: scale(1.1);
+}
+
+.col-10 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.col-11{
+    display: inline-block;
+    background-color: var(--cor-padrao2);
+    color: var(--cor-fonte-principal);
+    flex-basis: 25%;
+    max-width: 200px;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-11:hover{
+    transform: scale(1.1);
+}
+
+.col-11 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.col-12{
+    display: inline-block;
+    background-color: var(--cor-padrao2);
+    color: var(--cor-fonte-principal);
+    flex-basis: 25%;
+    max-width: 200px;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-12:hover{
+    transform: scale(1.1);
+}
+
+.col-12 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+footer{
+  background-color: var(--cor-padrao);
+  color: var(--cor-fonte2);
 }
