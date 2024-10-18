@@ -89,6 +89,14 @@ nav ul li a:hover{
     margin-top: 5%;
     border-radius: 25px;
 }
+
+.col-1 img{
+    width: 80%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
 .btn{
     background-color: var(--cor-padrao);
     border: none;
@@ -113,7 +121,6 @@ nav ul li a:hover{
     margin-bottom: 50px;
     transition: transform 0.5s;
 }
-
 .col-2:hover{
     transform: scale(1.1);
 }
@@ -123,6 +130,7 @@ nav ul li a:hover{
     object-fit: cover;
     object-position: center;
 }
+
 .col-3{
     display: inline-block;
     background-color: var(--cor-padrao2);
