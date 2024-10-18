@@ -18,7 +18,7 @@ body{
     font-family: 'Arial', sans-serif;
 
 }
-.banner{
+.inicio{
     background-color: var(--cor-padrao2);
 }
 .container{
@@ -56,7 +56,7 @@ nav ul li a{
 nav ul li a:hover{
     color: var(--cor-fonte-hover);
 }
-.banner p{
+.inicio p{
     color: var(--cor-fonte-principal);
 }
 
@@ -68,10 +68,15 @@ nav ul li a:hover{
 }
 .corpo-produtos h2{
     text-align: center;
+    color: var(--cor-fonte-principal);
+    transition: color 0.25s;
+}
+.corpo-produtos h2:hover{
+    color: var(--cor-fonte-hover);
 }
 .corpo-produtos .linha{
-    padding-left: 20%;
-    padding-right:10%;
+    padding-left: 25%;
+    padding-right:25%;
 }
 .col-1{
     display: inline-block;
@@ -80,6 +85,8 @@ nav ul li a:hover{
     flex-basis: 25%;
     max-width: 200px;
     padding: 10px;
+    margin-left: -30px;
+    margin-right: 41px;
     margin-bottom: 50px;
     transition: transform 0.5s;
     
@@ -101,6 +108,7 @@ nav ul li a:hover{
     color: var(--cor-fonte-principal);
     flex-basis: 25%;
     max-width: 200px;
+    margin-right: 25px;
     padding: 10px;
     margin-bottom: 50px;
     transition: transform 0.5s;
@@ -121,6 +129,7 @@ nav ul li a:hover{
     color: var(--cor-fonte-principal);
     flex-basis: 25%;
     max-width: 200px;
+    margin-right: 25px;
     padding: 10px;
     margin-bottom: 50px;
     transition: transform 0.5s;
@@ -162,6 +171,8 @@ nav ul li a:hover{
     flex-basis: 25%;
     max-width: 200px;
     padding: 10px;
+    margin-left: -30px;
+    margin-right: 41px;
     margin-bottom: 50px;
     transition: transform 0.5s;
 }
@@ -182,6 +193,7 @@ nav ul li a:hover{
     flex-basis: 25%;
     max-width: 200px;
     padding: 10px;
+    margin-right: 25px;
     margin-bottom: 50px;
     transition: transform 0.5s;
 }
@@ -203,6 +215,7 @@ nav ul li a:hover{
     flex-basis: 25%;
     max-width: 200px;
     padding: 10px;
+    margin-right: 25px;
     margin-bottom: 50px;
     transition: transform 0.5s;
 }
@@ -224,6 +237,7 @@ nav ul li a:hover{
     flex-basis: 25%;
     max-width: 200px;
     padding: 10px;
+    margin-right: 40px;
     margin-bottom: 50px;
     transition: transform 0.5s;
 }
@@ -245,6 +259,8 @@ nav ul li a:hover{
     flex-basis: 25%;
     max-width: 200px;
     padding: 10px;
+    margin-left: -30px;
+    margin-right: 20px;
     margin-bottom: 50px;
     transition: transform 0.5s;
 }
@@ -266,6 +282,7 @@ nav ul li a:hover{
     flex-basis: 25%;
     max-width: 200px;
     padding: 10px;
+    margin-right: 20px;
     margin-bottom: 50px;
     transition: transform 0.5s;
 }
@@ -287,6 +304,7 @@ nav ul li a:hover{
     flex-basis: 25%;
     max-width: 200px;
     padding: 10px;
+    margin-right: 20px;
     margin-bottom: 50px;
     transition: transform 0.5s;
     
@@ -308,6 +326,7 @@ nav ul li a:hover{
     flex-basis: 25%;
     max-width: 200px;
     padding: 10px;
+    margin-right: 25px;
     margin-bottom: 50px;
     transition: transform 0.5s;
 
@@ -326,4 +345,11 @@ footer{
   background-color: var(--cor-padrao);
   color: var(--cor-fonte2);
   text-align: center;
+}
+.fonte h2{
+    font-weight: 100;
+    transition: font-weight 0.25s;
+}
+.fonte h2:hover{
+    font-weight: 600;
 }
