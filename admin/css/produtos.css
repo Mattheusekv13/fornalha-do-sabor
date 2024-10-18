@@ -59,13 +59,14 @@ nav ul li a:hover{
 .inicio p{
     color: var(--cor-fonte-principal);
 }
-
-.corpo-produtos{
-    max-width: 1800px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+.corpo-produtos1{
+    text-align: center;
+    
 }
+.corpo-produtos{
+    text-align: center;
+}
+
 .corpo-produtos h1{
     text-align: center;
     color: var(--cor-fonte-principal);
@@ -73,10 +74,33 @@ nav ul li a:hover{
 }
 .corpo-produtos h1:hover{
     color: var(--cor-fonte-hover);
+    
 }
-.corpo-produtos .linha{
-    padding-left: 25%;
-    padding-right:25%;
+
+.col-1{
+    display: inline-block;
+    background-color: var(--cor-padrao2);
+    color: var(--cor-fonte-principal);
+    flex-basis: 25%;
+    max-width: 550px;
+    margin-right: 25px;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+    margin-top: 5%;
+}
+.btn{
+    background-color: var(--cor-padrao);
+    border: none;
+    width: 50%;
+    height: 50px;
+    font-size: 24px;
+    color: var(--cor-fonte2);
+    transition: background-color 0.25s;
+    border-radius: 25px;
+}
+.btn:hover{
+    background-color: var(--cor-fonte-hover);
 }
 .col-2{
     display: inline-block;
@@ -166,7 +190,7 @@ footer{
   background-color: var(--cor-padrao);
   color: var(--cor-fonte2);
   text-align: center;
-  margin-top: 50%;
+
   
 }
 .fonte h2{
