@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+    --cor-padrao:#9F764B;
+    --cor-padrao2:#F9F6E3;
+    --cor-fonte:black;
+    --cor-fonte-principal:#9F764B;
+    --cor-fonte2:#F9F6E3;
+    --cor-fonte-hover: #7c5429;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+
+}
+.inicio{
+    background-color: var(--cor-padrao2);
+}
+.container{
+    max-width: 1300px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;/*serve pra tirar as bolinhas*/
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--cor-fonte-principal);
+    font-size: 20px;
+    font-weight: 600;
+    transition: color 0.25s;
+}
+nav ul li a:hover{
+    color: var(--cor-fonte-hover);
+}
+.inicio p{
+    color: var(--cor-fonte-principal);
+}
+
+.corpo-produtos{
+    max-width: 1800px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.corpo-produtos h1{
+    text-align: center;
+    color: var(--cor-fonte-principal);
+    transition: color 0.25s;
+}
+.corpo-produtos h1:hover{
+    color: var(--cor-fonte-hover);
+}
+.corpo-produtos .linha{
+    padding-left: 25%;
+    padding-right:25%;
+}
+.col-2{
+    display: inline-block;
+    background-color: var(--cor-padrao2);
+    color: var(--cor-fonte-principal);
+    flex-basis: 25%;
+    max-width: 200px;
+    margin-right: 25px;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-2:hover{
+    transform: scale(1.1);
+}
+
+.col-2 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.col-3{
+    display: inline-block;
+    background-color: var(--cor-padrao2);
+    color: var(--cor-fonte-principal);
+    flex-basis: 25%;
+    max-width: 200px;
+    margin-right: 25px;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-3:hover{
+    transform: scale(1.1);
+}
+
+.col-3 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.col-4{
+    display: inline-block;
+    background-color: var(--cor-padrao2);
+    color: var(--cor-fonte-principal);
+    flex-basis: 25%;
+    max-width: 200px;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-4:hover{
+    transform: scale(1.1);
+}
+
+.col-4 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.col-5{
+    display: inline-block;
+    background-color: var(--cor-padrao2);
+    color: var(--cor-fonte-principal);
+    flex-basis: 25%;
+    max-width: 200px;
+    padding: 10px;
+    margin-left: -30px;
+    margin-right: 41px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-5:hover{
+    transform: scale(1.1);
+}
+
+.col-5 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+footer{
+  background-color: var(--cor-padrao);
+  color: var(--cor-fonte2);
+  text-align: center;
+  margin-top: 50%;
+  
+}
+.fonte h2{
+    font-weight: 100;
+    transition: font-weight 0.25s;
+}
+.fonte h2:hover{
+    
+    font-weight: 600;
+}
